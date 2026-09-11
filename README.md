@@ -54,6 +54,8 @@ Daarbij is `round_number` een variabele die je vóór de while-loop hebt gedefin
 
 ### De spelregels
 
+De algemene regels van roulette worden in [deze video](https://www.youtube.com/watch?v=wRciBlaiCMU) uitgelegd, maar het spel wordt gespeeld volgens die -iets simpelere- regels die je hieronder kunt lezen.
+
 De logica van het spel is afhankelijk van de `spin` variabele en de `choice` die de gebruiker heeft gemaakt. 
 Je houdt verder nog twee variabelen bij: `color` en `odd_even`.
 Als de `spin` variabele lager is dan of gelijk is aan 18, wordt de `color` bij een even spin zwart en bij een oneven spin rood. Is de spin echter hoger dan 18, dan wordt de `color` bij een even spin rood en bij een oneven spin zwart.
